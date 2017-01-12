@@ -16,7 +16,7 @@
     "fabpot/php-cs-fixer": "~2.0@dev"
   },
   "autoload": {
-    "psr-4": {"bukerllk\\placeToPay\\": "src/"},
-    "classmap": ["lib/"]
+    "psr-4": {"bukerllk\\placeToPay\\": "src/"}
+    //("classmap": ["lib/"]
   }
 }
