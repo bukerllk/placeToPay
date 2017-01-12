@@ -15,11 +15,11 @@ class placeToPay extends nusoap_client
     /**
      * @var string
      */
-    protected $wsdl = "https://test.placetopay.com/soap/pse/";
+    protected $wsdl = "YOUR WSDL";
 
-    protected $login = '6dd490faf9cb87a9862245da41170ff2';
+    protected $login = 'YOUR LOGIN';
 
-    protected $tranKey = '024h1IlD';
+    protected $tranKey = 'YOUR KEY';
 
     protected $seed;
 
