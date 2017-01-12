@@ -9,7 +9,7 @@ namespace bukerllk\placeToPay;
 
 use nusoap_client;
 
-class placeToPay extends nusoap_client
+class placeToPay
 {
 
     /**
