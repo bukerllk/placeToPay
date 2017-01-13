@@ -4,11 +4,50 @@ placeToPay is a Simple implementation for  Api Place To Pay.
 
 #Instalation
 
-To install this package, run the command below and you will get the latest version
+To install this package, add and run the command below and you will get the latest version
 ```
-composer require bukerllk/placeToPay
+add in composer.json
+
+   "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/bukerllk/placeToPay"
+    }
+  ],
+  "autoload": {
+	"classmap": [
+	  "vendor/bukerllk/placeToPay/lib/"
+	]
+  }
+
+run the command
+
+  composer require bukerllk/placeToPay
+
+  composer update
 
 ```
+
+```
+
+#Functions in the SDK
+
+```
+<?php
+
+getBankList
+
+createTransaction
+
+createTransactionMultiCredit
+
+getTransactionInformation
+
+getFunctions
+
+
+```
+
 
 #Usage
 
@@ -30,28 +69,12 @@ protected $tranKey = 'Your key';
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$placeToPay =  new bukerllk\placeToPay\placeToPay();
+$cliente = new \bukerllk\placeToPay\placeToPay();
 
-$placeToPay->getBankLit(); // getBankLit
+$p2p=$cliente->getBankList();
 
-
-```
-
-#Functions in the SDK
-
-```
-<?php
-
-getBankList
-
-createTransaction
-
-createTransactionMultiCredit
-
-getTransactionInformation
-
-getFunctions
+print_r($p2p1);
 
 
-```
+
 
