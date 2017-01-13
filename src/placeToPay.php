@@ -14,11 +14,11 @@ class placeToPay
     /**
      * @var string
      */
-    protected $wsdl = "";
+    protected $wsdl = "https://test.placetopay.com/soap/pse/";
 
-    protected $login = '';
+    protected $login = '6dd490faf9cb87a9862245da41170ff2';
 
-    protected $tranKey = '';
+    protected $tranKey = '024h1IlD';
 
     protected $seed;
 
