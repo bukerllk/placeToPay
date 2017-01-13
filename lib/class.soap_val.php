@@ -2,7 +2,6 @@
 
 
 
-
 /**
 * For creating serializable abstractions of native PHP types.  This class
 * allows element name/namespace, XSD type, and XML attributes to be

@@ -2,7 +2,6 @@
 
 
 
-
 /**
 * parses an XML Schema, allows access to it's data, other utility methods.
 * imperfect, no validation... yet, but quite functional.

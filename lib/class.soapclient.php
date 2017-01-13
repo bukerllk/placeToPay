@@ -1,8 +1,6 @@
 <?php
 
 
-
-
 /**
 *
 * [nu]soapclient higher level class for easy usage.

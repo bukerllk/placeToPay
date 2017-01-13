@@ -8,7 +8,6 @@
 namespace bukerllk\placeToPay;
 
 use nusoap_client;
-
 class placeToPay
 {
 

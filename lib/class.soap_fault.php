@@ -2,7 +2,6 @@
 
 
 
-
 /**
 * Contains information for a SOAP fault.
 * Mainly used for returning faults from deployed functions

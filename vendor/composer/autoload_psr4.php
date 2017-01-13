@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'bukerllk\\placeToPay\\' => array($baseDir . '/src'),
-    '' => array($baseDir . '/lib'),
 );
