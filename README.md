@@ -8,21 +8,24 @@ To install this package, add and run the command below and you will get the late
 ```
 add in or create file composer.json
 {
-   "repositories": [
+  "minimum-stability": "dev",
+  "repositories": [
     {
       "type": "git",
       "url": "https://github.com/bukerllk/placeToPay"
     }
   ],
+  "require": {
+    "php": ">=5.3.3",
+    "bukerllk/placeToPay": "*"
+  },
   "autoload": {
-	"classmap": [
-	  "vendor/bukerllk/placeToPay/lib/"
-	]
+    "classmap": [
+      "vendor/bukerllk/placeToPay/lib/"
+    ]
   }
 }
 run the command
-
-  composer require bukerllk/placeToPay
 
   composer update or composer install
 
@@ -64,9 +67,10 @@ create file test
 
 	$client = new \bukerllk\placeToPay\placeToPay();
 
-	$p2p=$client->getBankList();
+	$banks=$client->getBankList();
 
-	print_r($p2p1);
+	echo '<pre>';
+	print_r($banks);
 
 ```
 
