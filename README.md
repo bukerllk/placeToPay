@@ -32,22 +32,6 @@ run the command
   composer install
 
 ```
-#Functions in the SDK
-
-```
-
-getBankList
-
-createTransaction
-
-createTransactionMultiCredit
-
-getTransactionInformation
-
-getFunctions
-
-
-```
 #Usage
 
 
@@ -73,6 +57,22 @@ create file test
 
 	echo '<pre>';
 	print_r($banks);
+
+```
+#Functions in the SDK
+
+```
+
+$client->getBankList()
+
+$client->createTransaction($parameters);
+
+$client->createTransactionMultiCredit($parameters)
+
+$client->getTransactionInformation($parameters)
+
+$client->getFunctions()
+
 
 ```
 
