@@ -62,9 +62,9 @@ create file test
 
 	require_once __DIR__ . '/vendor/autoload.php';
 
-	$cliente = new \bukerllk\placeToPay\placeToPay();
+	$client = new \bukerllk\placeToPay\placeToPay();
 
-	$p2p=$cliente->getBankList();
+	$p2p=$client->getBankList();
 
 	print_r($p2p1);
 
