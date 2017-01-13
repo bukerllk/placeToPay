@@ -45,14 +45,18 @@ getFunctions
 ```
 #Usage
 
-change variables in file bukerllk/placeTopay/src/placeToPay.php
+
 ```
+
+change variables in file bukerllk/placeTopay/src/placeToPay.php
 
 protected $wsdl = "Your wsdl";
 
 protected $login = 'Your login';
 
 protected $tranKey = 'Your key';
+
+create file test
 
 <?php
 
