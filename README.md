@@ -27,7 +27,9 @@ add in or create file composer.json
 }
 run the command
 
-  composer update or composer install
+  composer update
+  or
+  composer install
 
 ```
 #Functions in the SDK
