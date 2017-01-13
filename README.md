@@ -27,13 +27,9 @@ run the command
   composer update
 
 ```
-
-```
-
 #Functions in the SDK
 
 ```
-<?php
 
 getBankList
 
@@ -47,12 +43,10 @@ getFunctions
 
 
 ```
-
-
 #Usage
 
-```
 change variables in file bukerllk/placeTopay/src/placeToPay.php
+```
 
 protected $wsdl = "Your wsdl";
 
@@ -60,20 +54,20 @@ protected $login = 'Your login';
 
 protected $tranKey = 'Your key';
 
-
-```
-
-
-```
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+	require_once __DIR__ . '/vendor/autoload.php';
 
-$cliente = new \bukerllk\placeToPay\placeToPay();
+	$cliente = new \bukerllk\placeToPay\placeToPay();
 
-$p2p=$cliente->getBankList();
+	$p2p=$cliente->getBankList();
 
-print_r($p2p1);
+	print_r($p2p1);
+
+```
+
+
+
 
 
 
