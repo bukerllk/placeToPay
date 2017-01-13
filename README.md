@@ -1,7 +1,7 @@
 # placeToPay
 
 placeToPay is a Simple implementation for  Api Place To Pay.
-```
+
 *Pick a name wisely: Choose a good name for the bookstore, in my case I chose placeToPay.
 
 *Host source openly: Hosting it in an accessible code repository placeToPay is hosted in my github account.
@@ -29,7 +29,7 @@ placeToPay is a Simple implementation for  Api Place To Pay.
 *Include a license: Include a license.
 
 *Welcome contributions: Help and thank the people who contribute.
-```
+
 
 #Instalation
 
