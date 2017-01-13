@@ -24,7 +24,7 @@ run the command
 
   composer require bukerllk/placeToPay
 
-  composer update
+  composer update or composer install
 
 ```
 #Functions in the SDK
