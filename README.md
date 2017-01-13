@@ -6,8 +6,8 @@ placeToPay is a Simple implementation for  Api Place To Pay.
 
 To install this package, add and run the command below and you will get the latest version
 ```
-add in composer.json
-
+add in or create file composer.json
+{
    "repositories": [
     {
       "type": "git",
@@ -19,7 +19,7 @@ add in composer.json
 	  "vendor/bukerllk/placeToPay/lib/"
 	]
   }
-
+}
 run the command
 
   composer require bukerllk/placeToPay
